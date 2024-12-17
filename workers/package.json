@@ -1,0 +1,20 @@
+{
+  "name": "workers",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "build": "wrangler build"
+  },
+  "dependencies": {
+    "hono": "^3.7.2",
+    "jose": "^5.9.6",
+    "jwt-decode": "^4.0.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20231121.0",
+    "typescript": "^5.2.2",
+    "wrangler": "^3.19.0"
+  }
+}

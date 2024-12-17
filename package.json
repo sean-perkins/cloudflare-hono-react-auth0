@@ -1,0 +1,20 @@
+{
+  "name": "cloudflare-hono-react-auth0",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "frontend",
+    "workers"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:workers\"",
+    "build": "npm run build:frontend && npm run build:workers",
+    "build:frontend": "cd frontend && npm run build",
+    "build:workers": "cd workers && npm run build",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:workers": "cd workers && npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

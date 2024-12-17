@@ -21,12 +21,12 @@ npm install
 
 1. Create an Auth0 application
 2. Configure Allowed Callback URLs, Logout URLs
-3. Create .env files in frontend directory with the following values:
+3. Rename `.env.example` to `.env` and assign following values:
 
    ```
    VITE_AUTH0_DOMAIN=your-auth0-domain
-   VITE_AUTH0_CLIENT_ID=your-client-id
-   VITE_AUTH0_AUDIENCE=your-audience-id
+   VITE_AUTH0_CLIENT_ID=your-auto0=client-id
+   VITE_AUTH0_AUDIENCE=your-auto0-audience
    ```
 
 4. Rename the `wranger.example.toml` to `wrangler.toml` and assign the following values:
@@ -36,6 +36,8 @@ npm install
    AUTH0_DOMAIN = "your-auth0-domain"
    AUTH0_AUDIENCE = "your-audience-id"
    ```
+
+5. Optionally remove the `wrangler.toml` from the `.gitignore` in `workers/`
 
 ### 3. Development
 
