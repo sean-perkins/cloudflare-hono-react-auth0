@@ -21,7 +21,7 @@ npm install
 
 1. Create an Auth0 application
 2. Configure Allowed Callback URLs, Logout URLs
-3. Rename `.env.example` to `.env` and assign following values:
+3. Rename `.env.example` to `.env` and assign the following values:
 
    ```
    VITE_AUTH0_DOMAIN=your-auth0-domain
