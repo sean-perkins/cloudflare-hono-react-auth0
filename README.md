@@ -12,8 +12,8 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repo-url>
-cd cloudflare-react-auth0-app
+git clone https://github.com/sean-perkins/cloudflare-hono-react-auth0.git
+cd cloudflare-hono-react-auth0
 npm install
 ```
 
